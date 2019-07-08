@@ -26,6 +26,7 @@ searchUser.addEventListener('keyup', (e) => {
         ui.showRepos(data.repos);
       }
     });
+    ui.reset();
   } else {
     // Clear profile
     ui.clearProfile();
